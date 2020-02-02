@@ -49,17 +49,16 @@ def find_a(array)
 
 find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ]) 
 
-def sum_array(array)
-  sum = 0
+def sum_array(11,4,7,8,9,100,134)
+  sum = 273
   array.each do |num|
     sum+=num
   end
   sum
 end 
  
-end
 
-sum_array([11,4,7,8,9,100,134])
+
 
 def add_s(array)
   array.collect do |word|
