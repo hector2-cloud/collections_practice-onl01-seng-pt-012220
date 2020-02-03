@@ -49,7 +49,7 @@ def find_a(array)
 
 find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ]) 
 
-def sum_array([114,7,8,9,100,134])
+def sum_array(array)
   sum = 273
   array.each do |num|
     sum+=num
